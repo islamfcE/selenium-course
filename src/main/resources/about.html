@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actions page</title>
+</head>
+<body>
+<h1>HTML Actions Page</h1>
+<button id="clickBtn">Click Me!</button>
+<p id="clickMsg"></p>
+<script>
+    document.getElementById("clickBtn").addEventListener("click", function() {
+        document.getElementById("clickMsg").textContent = "Button Clicked!";
+    });
+</script>
+</body>
+</html>
